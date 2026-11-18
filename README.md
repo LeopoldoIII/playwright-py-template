@@ -47,7 +47,7 @@ behave features/smoke.feature:4
 ## 3. Project Structure
 
 ```
-playwright-py-template/
+playwright-behave-template/
 ├── .env                         # Execution flags and credentials (not committed to VCS)
 ├── .env.example                 # Template for environment variables
 ├── config.py                    # Centralized typed configuration loaded via python-dotenv
