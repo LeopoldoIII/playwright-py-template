@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+blob-report/
+*.png
+*.webm
+*.zip
+
+# Environment & IDE
+.env
+.DS_Store
+.idea/
+.pytest_cache/
+
+# Allow VS Code shared configuration
+!.vscode/settings.json
+!.vscode/extensions.json
